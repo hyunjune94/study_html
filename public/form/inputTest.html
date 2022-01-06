@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+<meta charset="uTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<title>강현준</title>
+</head>
+
+<body>
+	<form action="" method="post" id="form" name="" enctype="multipart/form-data">
+	아이디 : <input type="text" id="id1" name="id2">
+	<br>아이디 : <input type="text" id="id2" name="id2" size="50">
+	<br>아이디 : <input type="text" id="" name="" maxlength="20">
+	<br>아이디 : <input type="text" id="" name="" placeholder="아이디">
+	<br>아이디 : <input type="text" id="" name="" size="50" value="hyunjune">
+	<br>아이디 : <input type="text" id="" name="" size="50" placeholder="" value="hyunjune">
+	<br>아이디 : <input type="text" id="" name="" size="50" autofocus="autofocus">
+	
+	<br><input type="button" id="button" name="button" value="제출" onclick="here();">
+	</form>
+	
+	<script type="text/javascript">
+	function here() {
+		alert("id1: " + document.getElementById("id1").value);
+		document.getElementById("form").submit();		
+	}
+	</script>
+</body>
+</html>
